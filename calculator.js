@@ -27,3 +27,10 @@ $(".operation").click(
     }
 )
 
+$("#clear").click(
+    function() {
+    	frm.txt.value = "";
+    	equal = 0;
+
+    }
+)
