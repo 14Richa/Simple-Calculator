@@ -16,6 +16,7 @@ $(".digit").click(
     {
        if(equal == 0) frm.txt.value = frm.txt.value + this.value;
        else frm.txt.value = this.value;
+       equal = 0;
     }
 
 )
